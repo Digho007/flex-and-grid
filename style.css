@@ -7,8 +7,6 @@
 .Parent {
   display: flex;
   justify-content: center;
-  margin: auto;
-  padding: auto;
   position: absolute;
   width: 70%;
 }
@@ -20,20 +18,17 @@
 .one1:hover {
   background-color: hsl(31, 77%, 52%);
   color: hsla(0, 0%, 100%, 0.75);
-  border: 2px solid white;
 }
 
 .two,
 .two2:hover {
   background-color: hsl(184, 100%, 22%);
   color: hsla(0, 0%, 100%, 0.75);
-  border: 2px solid white;
 }
 .three,
 .three3:hover {
   background-color: hsl(179, 100%, 13%);
   color: hsla(0, 0%, 100%, 0.75);
-  border: 2px solid white;
 }
 
 .btn {
@@ -42,4 +37,10 @@
   cursor: pointer;
   margin: 20px 20px;
   border: none;
+}
+
+.one1:hover,
+.two2:hover,
+.three3:hover {
+  border: 2px solid white;
 }
